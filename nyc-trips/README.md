@@ -1,5 +1,5 @@
 # Exploring NYC trips
-
+> **NOTE**: The current code is also available in https://github.com/ceciliassis/data-science/tree/master/nyc-trips.
 
 ## Reproducibility
 In order to reproduce the study developed here, one must know a little bit about *python* and *jupyter notebook*. If you don't know anything about it, please take a look at these resources:
@@ -10,7 +10,7 @@ In order to reproduce the study developed here, one must know a little bit about
 
 Assuming that you already know how to code in python through a jupyter notebook and uses a *UNIX based SO*  **with** python in it, let's move on.
 
-> **IMPORTANT**: Since we are dealing with big data and `pandas`, please make sure that you have **at least** 3GB of RAM available. If you're using a UNIX based SO, you can check it using `top` command through a terminal.
+> **IMPORTANT**: Since we are dealing with big data and `pandas`, please make sure that you have **at least** 2GB of RAM available. If you're using a UNIX based SO, you can check it using `top` command through a terminal.
 
 ### Environment setting
 First, let's install `virtualenv`. With your terminal open inside _nyc-trips_ notebook's root folder, type:
@@ -20,7 +20,7 @@ python3 -m pip install virtualenv
 
 Then, create a new virtual environment and activate it:
 ```bash
-python3 -m virtualenv venv --python=python3.7
+python3 -m virtualenv venv
 source venv/bin/activate
 ```
 
